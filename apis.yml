@@ -1,7 +1,27 @@
 aid: start-playing
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/start-playing.png
 name: Start Playing
-description: Start Playing is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  StartPlaying (startplaying.games) is the largest online marketplace connecting
+  tabletop roleplaying game (TTRPG) players with professional Game Masters for
+  systems including Dungeons & Dragons, Pathfinder, Starfinder, Warhammer, and
+  many more. Players discover, book, and join online sessions filtered by system,
+  platform, genre, playstyle, and GM reviews, while Game Masters build careers by
+  hosting paid games across virtual tabletops. The platform also offers gift cards,
+  learn-to-play one-shots for beginners, kids' games, and corporate team-building
+  events. Surfaced as an a16z portfolio company and added to the API Evangelist
+  network; enrichment found a consumer web product with no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/start-playing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Tabletop RPG
+- Marketplace
+- Entertainment
+- Community
+- Booking
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/start-playing-domain-security.yml
+- type: Website
+  url: https://startplaying.games/
+- type: Blog
+  url: https://startplaying.games/blog
+- type: Support
+  url: https://startplaying.games/blog/contact-startplaying
+- type: Login
+  url: https://startplaying.games/login
+- type: TermsOfService
+  url: https://startplaying.games/terms-of-service
+- type: PrivacyPolicy
+  url: https://startplaying.games/privacy-policy
+- type: Careers
+  url: https://startplaying.games/careers
+- type: LLMsTxt
+  url: llms/start-playing-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
